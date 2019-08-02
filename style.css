@@ -1,0 +1,26 @@
+#xxx{
+    background:green;
+    border:1px solid red;
+  }
+  
+  body{
+    border:1px solid blue;
+      margin:0px;
+  }
+   html{
+     border:1px solid pink;
+   }
+  .actions{
+    position:fixed;    /*绝对定位*/
+    left:0;
+    bottom:0;
+  }
+  .actions #brush{
+    display:none;
+  }
+  .actions.x > #brush{
+    display:inline-block;
+  }
+  .actions.x > #eraser{
+    display:none;
+  }
